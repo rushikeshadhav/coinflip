@@ -433,7 +433,7 @@ footer {
     margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 415px) {
     .mainSection {
         height: 249px;
     }
@@ -534,6 +534,178 @@ footer {
 
     .third {
         display: none;
+    }
+
+    .footerContainer {
+        padding: 0 20px;
+    }
+
+    table {
+        display: none;
+    }
+
+    nav img {
+        padding-left: 1.5rem;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav span {
+        display: flex;
+        flex-direction: row;
+        /* margin-right: 0px; */
+        margin-left: auto;
+        margin-right: 8px;
+    }
+
+    .primaryBtn {
+        margin-right: 7px;
+    }
+
+    .secondaryBtn {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .mainSection {
+        height: 328px;
+    }
+
+    .mainContainer span {
+        width: px;
+    }
+
+    .mainContainer button {
+        width: 115px;
+        height: 36px;
+    }
+
+    .secondSection {
+        height: 15px;
+    }
+
+    .secondheading {
+        font-size: 35px;
+
+    }
+
+    .fourthSection {
+        height: 800px;
+        padding-top: 515px;
+    }
+
+    .fourthBtn {
+        width: 115px;
+        height: 36px;
+        margin-top: 3rem;
+    }
+
+    .fourWidth {
+        padding-top: 0;
+    }
+
+
+    .heading {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 130%;
+    }
+
+    .three {
+        width: 226px;
+        height: 240px
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .container h1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+
+    .container span {
+        font-size: 10px;
+        text-align: center;
+        margin-top: 20px;
+        width: 199px;
+    }
+
+    .btnTwo {
+        margin-top: 1rem;
+
+    }
+
+    .thirdSection {
+        height: 500px;
+    }
+
+    .thirdContainer {
+        width: 389px;
+        padding: 0 20px;
+    }
+
+    .thirdheading {
+        font-size: 35px;
+        text-align: center;
+        width: 389px;
+    }
+
+    .th {
+        font-size: 35px;
+        text-align: center;
+        width: fit-content;
+    }
+
+    .support {
+        width: 349px;
+        height: 480px;
+        margin-right: 4em;
+    }
+
+    .fifthSection {
+        flex-direction: column;
+        height: 412px;
+    }
+
+    .fifthSection span {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .fifthContainer {
+        margin: 0;
+    }
+
+    .bagImg {
+        display: none;
+    }
+
+    .first {
+        margin-left: 0;
+    }
+
+    .second {
+        width: 278px;
+        height: 239px;
+        margin-left: 2rem;
     }
 
     .footerContainer {
